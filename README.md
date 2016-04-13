@@ -26,7 +26,7 @@ optional. We keep the core binaries are updated.
     $ cd /my/cordova/app
     $ git clone https://github.com/jxcore/jxcore-cordova.git
     $ rm -f ./jxcore-cordova/src/android/jxcore-binaries/*
-    $ cp -f /jxcore/repo/out_android/android/bin/* jxcore-cordova/src/android/jxcore-binaries/
+    $ cp -f /jxcore/out_android/android/bin/* jxcore-cordova/src/android/jxcore-binaries/
     ```
 
 3. Recompile .so files
