@@ -107,6 +107,7 @@ APP_STL := gnustl_static
 LOCAL_MODULE    := jxcore
 LOCAL_C_INCLUDES := $(JXCORE_OUT_ANDROID)
 LOCAL_SRC_FILES := JniHelper.cpp jxcore.cpp
+LOCAL_DISABLE_FATAL_LINKER_WARNINGS := true
 LOCAL_LDLIBS := -llog \
                 -lz \
                 -ldl \
